@@ -24,19 +24,19 @@
     align-self:center;
 }
 p a:any-link{
-    color:rgb(200, 156, 241);
+    color:hsl(271, 75%, 78%);
     text-decoration: none;
 }
 .main{
     width:550px;
     height:1000px;
-    background-color:rgb(255, 255, 255);
+    background-color:hsl(0, 0%, 100%);
     align-self:center;
     margin-top:60px;
     margin-bottom:auto;
     border-radius:30px;
     box-shadow: 2px 2px 20px;
-    color:rgb(44, 44, 44);
+    color:hsl(0, 0%, 17%);
     transition-duration:1s;
     display:flex;
     flex-direction: column;
@@ -47,24 +47,24 @@ img{
     height: 50%;
 }
 .main:hover, .top-bar:hover{
-    color:rgb(190, 36, 190);
+    color:hsl(300, 68%, 44%);
 }
 hr{
     width: 80%;
     margin-top:30px;
     margin-bottom:30px;
-    color:rgb(230, 230, 254)
+    color:hsl(240, 92%, 95%)
 }
 .button{
     height: 45px;
     width: 80%;
-    background-color:rgb(200, 156, 241);
+    background-color:hsl(271, 75%, 78%);
     color:white;
     border-radius: 20px;
     display:inline-flex;
     align-items:center;
     transition-duration:0.25s;
-    box-shadow:0px 12.5px 2px -2px rgba(0, 0, 0, 0.2);
+    box-shadow:0px 12.5px 2px -2px hsla(0, 0%, 0%, 0.2);
 }
 .button a{
     color:white;
@@ -103,16 +103,16 @@ i{
 .button2{
     height: 40px;
     width: 80%;
-    background-color:white;
-    color:rgb(200, 156, 241);
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(271, 75%, 78%);
     border-radius: 20px;
     display:inline-flex;
     align-items:center;
     transition-duration:0.25s;
-    border: 1px solid rgb(200, 156, 241);
+    border: 1px solid hsl(271, 75%, 78%);
 }
 .button2 a{
-    color:rgb(200, 156, 241);
+    color:hsl(271, 75%, 78%);
     text-decoration:none;
 }
 .button2:hover{
@@ -129,7 +129,7 @@ i{
 .entry{
     width: 13%;
     height: 55px;
-    border: 1px solid rgb(200, 156, 241);
+    border: 1px solid hsl(271, 75%, 78%);
     border-radius: 10px;
     display:inline-flex;
     justify-content: center;
@@ -144,35 +144,35 @@ i{
 .entry i{
     margin-left:0px;
     font-size:xx-large;
-    color:rgb(200, 156, 241);
+    color:hsl(271, 75%, 78%);
 }
 .change{
-    color:rgb(200, 156, 241);
+    color:hsl(271, 75%, 78%);
 }
 .inquiries{
     text-align:center;
 }
 .inquiries a{
-    color:rgb(200, 156, 241);
+    color:hsl(271, 75%, 78%);
     text-decoration:none;
 }
 .mark{
-    color:darkblue;
+    color:hsl(240, 100%, 27%);
     font-size:small;
     font-family:"Arial", sans-serif;
     transition-duration: 0.2s;
     margin:60px;
 }
 .mark:hover{
-    color:white;
+    color:hsl(0, 0%, 100%);
     font-size: 15px;
     background-size:120%;
-    background: linear-gradient(45deg,rgba(42, 123, 155, 1) 0%, rgba(255, 3, 238, 1) 100%);
+    background: linear-gradient(45deg,hsl(197, 57%, 39%) 0%, hsl(304, 100%, 51%) 100%);
     padding:10px;
     border-radius:10px;
 }
 .mark2{
-    color:darkblue;
+    color:hsl(240, 100%, 27%);
     font-size:small;
     font-family:"Arial", sans-serif;
     transition-duration: 0.2s;
@@ -180,10 +180,10 @@ i{
     text-decoration:none;
 }
 .mark2:hover{
-    color:white;
+    color:hsl(0, 0%, 100%);
     font-size: 15px;
     background-size:120%;
-    background: linear-gradient(45deg,rgba(179, 192, 199, 1) 0%, rgba(69, 145, 196, 1) 100%);
+    background: linear-gradient(45deg,hsl(201, 15%, 74%) 0%, hsl(204, 52%, 52%) 100%);
     padding:10px;
     border-radius:10px;
 }

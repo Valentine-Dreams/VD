@@ -47,5 +47,29 @@
     function fun(){
         document.querySelector(".change").innerHTML="valentinedreams_"
     }
+    window.onload = function change(){
+
+
+        
+        var link = document.querySelector("p a:any-link")
+        var button = document.querySelector(".button")
+        var button2 = document.querySelector(".button2")
+        var button2_link = document.querySelector(".button2 a")
+        var entry = document.querySelector(".entry")
+        var entry_icon = document.querySelector(".entry i")
+        
+        
+        
+
+            var mat = Math.floor(Math.random() * 360);
+        console.log(mat);
+       
+        link.style.color = `hsl(${mat}, 75%, 78%)`;
+        button.style.color = `hsl(${mat}, 75%, 78%)`;
+        button2.style.color = `hsl(${mat}, 75%, 78%)`;
+        button2_link.style.color = `hsl(${mat}, 75%, 78%)`;
+        entry.style.color = `hsl(${mat}, 75%, 78%)`;
+        entry_icon.style.color = `hsl(${mat}, 75%, 78%)`;
+    }
 </script>
 </html>
