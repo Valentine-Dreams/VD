@@ -58,7 +58,7 @@ hr{
 .button{
     height: 45px;
     width: 80%;
-    background-color:hsl(271, 75%, 78%);
+    background-color:rgb(200, 157, 241);
     color:white;
     border-radius: 20px;
     display:inline-flex;

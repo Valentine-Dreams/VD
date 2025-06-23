@@ -44,32 +44,33 @@
     </div>
 </body>
 <script>
-    function fun(){
-        document.querySelector(".change").innerHTML="valentinedreams_"
+    function fun() {
+        document.querySelector(".change").innerHTML = "valentinedreams_";
     }
-    window.onload = function change(){
 
+    window.onload = function change() {
+        const links = document.querySelectorAll("p a:any-link");
+        const button = document.querySelectorAll(".button");
+        const button2 = document.querySelectorAll(".button2");
+        const button2_link = document.querySelectorAll(".button2 a");
+        const entry = document.querySelectorAll(".entry");
+        const entry_icon = document.querySelectorAll(".entry i");
+        const inquiries = document.querySelectorAll(".inquiries a");
 
-        
-        var link = document.querySelector("p a:any-link")
-        var button = document.querySelector(".button")
-        var button2 = document.querySelector(".button2")
-        var button2_link = document.querySelector(".button2 a")
-        var entry = document.querySelector(".entry")
-        var entry_icon = document.querySelector(".entry i")
-        
-        
-        
-
-            var mat = Math.floor(Math.random() * 360);
+        const mat = Math.floor(Math.random() * 360);
         console.log(mat);
-       
-        link.style.color = `hsl(${mat}, 75%, 78%)`;
-        button.style.color = `hsl(${mat}, 75%, 78%)`;
-        button2.style.color = `hsl(${mat}, 75%, 78%)`;
-        button2_link.style.color = `hsl(${mat}, 75%, 78%)`;
-        entry.style.color = `hsl(${mat}, 75%, 78%)`;
-        entry_icon.style.color = `hsl(${mat}, 75%, 78%)`;
+
+        const color = `hsl(${mat}, 75%, 78%)`;
+
+        links.forEach(link => link.style.color = color);
+        button.forEach(btn => btn.style.backgroundColor = color);
+        button2.forEach(btn => btn.style.color = color);
+        button2_link.forEach(a => a.style.color = color);
+        entry.forEach(entry => entry.style.color = color);
+        entry_icon.forEach(icon => icon.style.color = color);
+        inquiries.forEach(a => a.style.color = color);
+
     }
 </script>
+
 </html>
