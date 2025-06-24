@@ -40,7 +40,7 @@
         </div>
         <span class="mark">( NOT Made with Carrd )</span>
 
-        <a href="https://unsplash.com/@mcallage" class="mark2"><span class="mark2">Background by Mirella Callage</span></a>
+        <a href="https://unsplash.com/@steve_j" class="mark2"><span class="mark2">Background by Steve Johnson</span></a>
     </div>
 </body>
 <script>
@@ -56,8 +56,9 @@
         const entry = document.querySelectorAll(".entry");
         const entry_icon = document.querySelectorAll(".entry i");
         const inquiries = document.querySelectorAll(".inquiries a");
+        const change = document.querySelectorAll(".change");
 
-        const mat = Math.floor(Math.random() * 360);
+        const mat = Math.floor((Math.random() * 360) + 0);
         console.log(mat);
 
         const color = `hsl(${mat}, 75%, 78%)`;
@@ -69,7 +70,7 @@
         entry.forEach(entry => entry.style.color = color);
         entry_icon.forEach(icon => icon.style.color = color);
         inquiries.forEach(a => a.style.color = color);
-
+        change.forEach(change => change.style.color = color);
     }
 </script>
 
